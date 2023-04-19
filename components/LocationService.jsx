@@ -1,9 +1,11 @@
-import { Button, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import Colors from '../constants/Colors'
 import * as Location from 'expo-location'
-import MapPreview from './MapPreview'
+
+import { Button, StyleSheet, Text, View } from 'react-native'
 import { useNavigation, useRoute } from '@react-navigation/native'
+
+import Colors from '../constants/Colors'
+import MapPreview from './MapPreview'
+import React from 'react'
 
 const LocationService = ({ onLocation }) => {
 
